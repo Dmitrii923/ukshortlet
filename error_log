@@ -1,0 +1,1 @@
+[29-Oct-2021 11:15:27 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home/b7jgzyol488b/public_html/app/Http/Controllers/Frontcontroller.php on line 17

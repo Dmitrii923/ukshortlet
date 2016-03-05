@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, material pro admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, material design, material dashboard bootstrap 5 dashboard template">
+    <meta name="description" content="Material Pro is powerful and clean admin dashboard template">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Dashboard</title>
+    <link rel="canonical" href="#" />
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+    <!-- Custom CSS -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!-- This Page CSS -->
+    <link rel="stylesheet" type="text/css" href="css/prism.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- -------------------------------------------------------------- -->
+    <div id="main-wrapper">
+        <!-- -------------------------------------------------------------- -->
+        <!-- Topbar header - style you can find in pages.scss -->
+        <!-- -------------------------------------------------------------- -->
+        <header class="topbar">
+            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
+                <div class="navbar-header">
+                    <!-- This is for the sidebar toggle which is visible on mobile only -->
+                    <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i
+                            class="ti-menu ti-close"></i></a>
+                    <!-- ============================================================== -->
+                    <!-- Logo -->
+                    <!-- ============================================================== -->
+                    <a class="navbar-brand" href="index.html">
+                        <!-- Logo icon -->
+                        <b class="logo-icon">
+                            <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                            <!-- Dark Logo icon -->
+                            <img src="images/logo-icon.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo icon -->
+                            <img src="images/logo-light-icon.png" alt="homepage" class="light-logo" />
+                        </b>
+                        <!--End Logo icon -->
+                        <!-- Logo text -->
+                        <span class="logo-text">
+                            <!-- dark Logo text -->
+                            <img src="images/logo-text.png" alt="homepage" class="dark-logo" />
+                            <!-- Light Logo text -->
+                            <img src="images/logo-light-text.png" class="light-logo" alt="homepage" />
+                        </span>
+                    </a>
+                    <!-- ============================================================== -->
+                    <!-- End Logo -->
+                    <!-- ============================================================== -->
+                    <!-- ============================================================== -->
+                    <!-- Toggle which is visible on mobile only -->
+                    <!-- ============================================================== -->
+                    <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)"
+                        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
+                </div>
+                <!-- ============================================================== -->
+                <!-- End Logo -->
+                <!-- ============================================================== -->
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <!-- ============================================================== -->
+                    <!-- toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav me-auto">
+                        <!-- This is  -->
+                        <li class="nav-item"> <a
+                                class="nav-link sidebartoggler d-none d-md-block waves-effect waves-dark"
+                                href="javascript:void(0)"><i class="ti-menu"></i></a> </li>
+                        <!-- ============================================================== -->
+                        <!-- Search -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item d-none d-md-block search-box"> <a
+                                class="nav-link d-none d-md-block waves-effect waves-dark" href="javascript:void(0)"><i
+                                    class="ti-search"></i></a>
+                            <form class="app-search">
+                                <input type="text" class="form-control" placeholder="Search & enter"> 
+                                <a class="srh-btn"><i class="ti-close"></i></a> 
+                            </form>
+                        </li>
+                        <!-- ============================================================== -->
+                    </ul>
+                    <!-- ============================================================== -->
+                    <!-- Right side toggle and nav items -->
+                    <!-- ============================================================== -->
+                    <ul class="navbar-nav">
+                        <!-- ============================================================== -->
+                        <!-- Comment -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark"  href="#" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"> <i class="mdi mdi-message"></i>
+                                <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end mailbox dropdown-menu-animate-up">
+                                <ul class="list-style-none">
+                                    <li>
+                                        <div class="border-bottom rounded-top py-3 px-4">
+                                            <div class="mb-0 font-weight-medium fs-4">Notifications</div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="message-center notifications position-relative"
+                                            style="height:230px;">
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-danger text-danger btn-circle">
+                                                    <i data-feather="link" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Luanch Admin</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">Just see
+                                                        the my new admin!</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-success text-success btn-circle">
+                                                    <i data-feather="calendar" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Event today</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">Just a
+                                                        reminder that you have event</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:10 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-info text-info btn-circle">
+                                                    <i data-feather="settings" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Settings</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">You can
+                                                        customize this template as you want</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:08 AM</span>
+                                                </div>
+                                            </a>
+                                            <!-- Message -->
+                                            <a href="javascript:void(0)"
+                                                class="message-item d-flex align-items-center border-bottom px-3 py-2">
+                                                <span class="btn btn-light-primary text-primary btn-circle">
+                                                    <i data-feather="users" class="feather-sm fill-white"></i>
+                                                </span>
+                                                <div class="w-75 d-inline-block v-middle ps-3">
+                                                    <h5 class="message-title mb-0 mt-1 fs-3 fw-bold">Pavan kumar</h5> <span
+                                                        class="fs-2 text-nowrap d-block time text-truncate fw-normal text-muted mt-1">Just see
+                                                        the my admin!</span> <span
+                                                        class="fs-2 text-nowrap d-block subtext text-muted">9:02 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link border-top text-center text-dark pt-3"
+                                            href="javascript:void(0);"> <strong>Check all notifications</strong> <i
+                                                class="fa fa-angle-right"></i> </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                        <!-- End Comment -->
+                        <!-- Profile -->
+                        <!-- ============================================================== -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark" href="#" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                <img src="images/1.jpg" alt="user" width="30" class="profile-pic rounded-circle" />
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end user-dd animated flipInY">
+                                <div class="d-flex no-block align-items-center p-3 bg-info text-white mb-2">
+                                    <div class=""><img src="images/1.jpg" alt="user" class="rounded-circle" width="60"></div>
+                                    <div class="ms-2">
+                                        <h4 class="mb-0 text-white">Steave Jobs</h4>
+                                        <p class=" mb-0">varun@gmail.com</p>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item" href="#"><i data-feather="user" class="feather-sm text-info me-1 ms-1"></i> My
+                                    Profile</a>
+                                <a class="dropdown-item" href="#"><i data-feather="credit-card" class="feather-sm text-info me-1 ms-1"></i>
+                                    My Balance</a>
+                                <a class="dropdown-item" href="#"><i data-feather="mail" class="feather-sm text-success me-1 ms-1"></i>
+                                    Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i data-feather="settings" class="feather-sm text-warning me-1 ms-1"></i>
+                                    Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i data-feather="log-out"
+                                        class="feather-sm text-danger me-1 ms-1"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="pl-4 p-2"><a href="#"
+                                        class="btn d-block w-100 btn-info rounded-pill">View Profile</a></div>
+                            </div>
+                        </li>
+                        <!-- ============================================================== -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- -------------------------------------------------------------- -->
+        <!-- End Topbar header -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- -------------------------------------------------------------- -->
+        <aside class="left-sidebar">
+            <!-- Sidebar scroll-->
+            <div class="scroll-sidebar">
+                <!-- User profile -->
+                <div class="user-profile position-relative" style="background: url(images/user-info.jpg) no-repeat;">
+                    <!-- User profile image -->
+                    <div class="profile-img"> <img src="images/profile.png" alt="user" class="w-100" /> </div>
+                    <!-- User profile text-->
+                    <div class="profile-text pt-1 dropdown"> 
+                        <a href="#" class="dropdown-toggle u-dropdown w-100 text-white d-block position-relative" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Markarn Doe</a>
+                        <div class="dropdown-menu animated flipInY" aria-labelledby="dropdownMenuLink"> 
+                            <a class="dropdown-item" href="#"><i data-feather="user" class="feather-sm text-info me-1 ms-1"></i> My
+                                    Profile</a>
+                                <a class="dropdown-item" href="#"><i data-feather="credit-card" class="feather-sm text-info me-1 ms-1"></i>
+                                    My Balance</a>
+                                <a class="dropdown-item" href="#"><i data-feather="mail" class="feather-sm text-success me-1 ms-1"></i>
+                                    Inbox</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#"><i data-feather="settings" class="feather-sm text-warning me-1 ms-1"></i>
+                                    Account Setting</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="authentication-login3.html"><i data-feather="log-out"
+                                        class="feather-sm text-danger me-1 ms-1"></i> Logout</a>
+                                <div class="dropdown-divider"></div>
+                                <div class="pl-4 p-2"><a href="#"
+                                        class="btn d-block w-100 btn-info rounded-pill">View Profile</a></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End User profile text-->
+                <!-- Sidebar navigation-->
+                <nav class="sidebar-nav">
+                    <ul id="sidebarnav">
+                        <li class="nav-small-cap">
+                            <i class="mdi mdi-dots-horizontal"></i>
+                            <span class="hide-menu">Personal</span>
+                        </li>
+                        <li class="sidebar-item">
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)"
+                                aria-expanded="false">
+                                <i class="mdi mdi-gauge"></i>
+                                <span class="hide-menu">Dashboard </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Dashboard</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="mdi mdi-content-copy"></i>
+                                <span class="hide-menu">Page Layouts </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Sidebar</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
+                                <i class="mdi mdi-inbox-arrow-down"></i>
+                                <span class="hide-menu">Inbox </span>
+                            </a>
+                            <ul aria-expanded="false" class="collapse  first-level">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Email</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Email</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">
+                                        <span class="hide-menu">Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="sidebar-item"> 
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="authentication-login1.html" aria-expanded="false">
+                                <i class="mdi mdi-directions"></i>
+                                <span class="hide-menu">Log Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- End Sidebar navigation -->
+            </div>
+            <!-- End Sidebar scroll-->
+            <!-- Bottom points-->
+            <div class="sidebar-footer">
+                <!-- item-->
+                <a href="" class="link" data-bs-toggle="tooltip" data-bs-placement="top" title="Settings"><i class="ti-settings"></i></a>
+                <!-- item-->
+                <a href="" class="link" data-bs-toggle="tooltip" data-bs-placement="top" title="Email"><i class="mdi mdi-gmail"></i></a>
+                <!-- item-->
+                <a href="" class="link" data-bs-toggle="tooltip" data-bs-placement="top" title="Logout"><i class="mdi mdi-power"></i></a>
+            </div>
+            <!-- End Bottom points-->
+        </aside>
+        <!-- -------------------------------------------------------------- -->
+        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- -------------------------------------------------------------- -->
+        <!-- Page wrapper  -->
+        <!-- -------------------------------------------------------------- -->
+        <div class="page-wrapper">
+            <!-- ============================================================== -->
+            <!-- Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <div class="row page-titles">
+                <div class="col-md-5 col-6 align-self-center">
+                    <h3 class="text-themecolor mb-0">Daily Entry</h3>
+                </div>
+                <div class="col-md-7 col-6 align-self-center d-md-block">
+                  <div class="d-flex mt-2 justify-content-end">
+                    <div class="dropdown ms-3">
+                      <button class="btn btn-bd-light dropdown-toggle" id="bd-versions" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+                        <span class="d-none d-lg-inline">Action</span>
+                      </button>
+                      <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-versions">
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">v4.6.x</a></li>
+                        <li><a class="dropdown-item" href="#">v3.4.1</a></li>
+                        <li><a class="dropdown-item" href="#">v2.3.2</a></li>
+                      </ul>
+                    </div>
+                  </div>
+               </div>
+            </div>
+            <!-- ============================================================== -->
+            <!-- End Bread crumb and right sidebar toggle -->
+            <!-- ============================================================== -->
+            <!-- -------------------------------------------------------------- -->
+            <!-- Container fluid  -->
+            <!-- -------------------------------------------------------------- -->
+            <div class="container-fluid">
+                <!-- -------------------------------------------------------------- -->
+                <!-- Start Page Content -->
+                <!-- -------------------------------------------------------------- -->
+                <div class="row">
+                    <div class="col-md-9 col-12">
+                        <!-- ----------------------------------------- -->
+                        <!-- 1. Basic Form -->
+                        <!-- ----------------------------------------- -->
+                        <div class="card">
+                            <div class="card-body">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-floating mb-3">
+                                                <select class="form-select col-12" id="inlineFormCustomSelect">
+                                                    <option selected="">Bill Type</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                                <label for="inlineFormCustomSelect">Input Select</label>
+                                            </div>
+                                            <!-- Bill Type _end -->
+                                            <div class="form-floating mb-3">
+                                              <input type="text" class="form-control" id="Invoice_No" placeholder="Enter Invoice No">
+                                              <label for="Invoice_No">Invoice No</label>
+                                            </div>
+                                            <!-- Invoice No_end -->
+                                            <div class="form-floating mb-3">
+                                              <input type="text" class="form-control" id="Order_No" placeholder="Enter Invoice No">
+                                              <label for="Order_No">Order No</label>
+                                            </div>
+                                            <!-- Order_No -->
+                                            <div class="form-floating mb-3">
+                                                    <input type="date" class="form-control">
+                                                    <label class="control-label">Date of Birth</label>
+                                            </div>
+                                            <!-- Date_of_Birth -->
+                                            <div class="form-floating mb-3">
+                                              <input type="text" class="form-control" id="Purchose_Amount" placeholder="Enter Invoice No">
+                                              <label for="Purchose_Amount">Purchose Amount</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                           <div class="d-flex mt-2 justify-content-end">
+                                            <div class="form-floating mb-3 col-9">
+                                                <select class="form-select col-12" id="inlineFormCustomer">
+                                                    <option selected="">Customer</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                                <label for="inlineFormCustomer">Input Select</label>
+                                            </div>
+                                             <div class="col-3">
+                                                <button class="btn btn-success form-control">
+                                                <span class="d-lg-inline">View</span></button>
+                                              </div>
+                                           </div>
+                                            <!-- Customer_end -->
+                                            <div class="form-floating mb-3">
+                                                    <input type="date" class="form-control">
+                                                    <label class="control-label">Date of Birth</label>
+                                            </div>
+                                            <!-- Date_of_Birth -->
+                                            <div class="form-floating mb-3">
+                                              <input type="text" class="form-control" id="Transport" placeholder="Transport">
+                                              <label for="Transport">Transport</label>
+                                            </div>
+                                            <!-- Transport_end -->
+                                            <div class="form-floating mb-3">
+                                              <input type="text" class="form-control" id="Bank_vp" placeholder="Bank/vp">
+                                              <label for="Bank_vp">Bank/vp</label>
+                                            </div>
+                                            <!-- Bank_vp_end -->
+                                            <div class="form-floating mb-3">
+                                              <input type="text" class="form-control" id="Outstanding" placeholder="Outstanding Wallet Amt">
+                                              <label for="Outstanding">Outstanding Wallet Amt</label>
+                                            </div>
+                                            <!-- Outstanding Wallet Amt_end -->
+                                        </div>
+
+                                        <div class="col-12">
+                                           <div class="table-responsive"> 
+                                            <table class="table table-bordered">
+                                              <thead class="table-light">
+                                                <tr>
+                                                  <th scope="col">Select</th>
+                                                  <th scope="col">ISBN</th>
+                                                  <th scope="col">Book TItle</th>
+                                                  <th scope="col">Qty</th>
+                                                  <th scope="col">Free Qty</th>
+                                                  <th scope="col">Rate</th>
+                                                  <th scope="col">Commission</th>
+                                                  <th scope="col">Amount</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody>
+                                                <tr>
+                                                  <th scope="row"> 
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                    </div>
+                                                  </th>
+                                                  <td>32</td>
+                                                  <td>Physics Digest</td>
+                                                  <td>10</td>
+                                                  <th>0</th>
+                                                  <td>450</td>
+                                                  <td>0</td>
+                                                  <td>4500</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </div>
+                                        </div> 
+                                        <!-- tebel_end -->
+                                        <div class="col-12">
+                                            <div class="row mt-2">
+                                                <div class="form-floating mb-3 col-md-8 col-12">
+                                                   <button type="button" class="btn btn-primary">Add Book</button>
+                                                   <button type="button" class="btn btn-danger">Clear Book</button> 
+                                                </div>
+                                                <div class="col-md-4 col-12">
+                                                  <button type="button" class="btn btn-warning">Remaining Amount</button>
+                                              </div>
+                                           </div>
+                                        </div>
+                                         <!-- btn_end -->
+                                        <div class="col-12">
+                                            <div class=" mt-2 row">
+                                                <div class="form-floating mb-3 col-md-2 col-6 px-sm-1">
+                                                        <select class="form-select col-12" id="ISBN">
+                                                            <option selected="">ISBN</option>
+                                                            <option value="1">One</option>
+                                                            <option value="2">Two</option>
+                                                            <option value="3">Three</option>
+                                                        </select>
+                                                        <label for="ISBN">Input Select</label>
+                                                </div>
+                                                <!-- ISBN_end -->
+                                                <div class="form-floating mb-3 col-md-2 col-6 px-sm-1 mpad">
+                                                    <input type="text" class="form-control" id="Book_Name" placeholder="Book Name">
+                                                    <label for="Book Name">Book Name</label>
+                                                </div>
+                                                <!-- Book Name_end -->
+                                                <div class="form-floating mb-3 col-md-2 col-6 px-sm-1 mpad">
+                                                    <input type="text" class="form-control" id="Qty" placeholder="Qty">
+                                                    <label for="Qty">Qty</label>
+                                                </div>
+                                                <!-- Qty_end -->
+                                                <div class="form-floating mb-3 col-md-2 col-6 px-sm-1 mpad">
+                                                    <input type="text" class="form-control" id="Free" placeholder="Free">
+                                                    <label for="Free">Free</label>
+                                                </div>
+                                                <!-- Free_end -->
+                                                <div class="form-floating mb-3 col-md-2 col-6 px-sm-1 mpad">
+                                                    <input type="text" class="form-control" id="Rate" placeholder="Rate">
+                                                    <label for="Rate">Rate</label>
+                                                </div>
+                                                <!-- Rate_end -->
+                                                <div class="form-floating mb-3 col-md-2 col-6 px-sm-1 mpad">
+                                                    <input type="text" class="form-control" id="Commissior" placeholder="Commissior">
+                                                    <label for="Commissior">Commissior</label>
+                                                </div>
+                                                <!-- Commissior_end -->
+                                           </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-md-8 col-12">
+                                                     <div class="mb-3 form-floating">
+                                                        <textarea class="form-control" id="Remark" rows="5" placeholder="Remark"></textarea>
+                                                        <label>Remark</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-md-4 col-12">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" id="SubTotal" placeholder="Sub Total">
+                                                        <label for="SubTotal">Sub Total</label>
+                                                    </div>
+                                                    <!-- Sub Total_end -->
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" id="Adjustment_Amount" placeholder="Sub Total">
+                                                        <label for="Adjustment_Amount">Adjustment Amount</label>
+                                                    </div>
+                                                    <!-- SubTotal_end -->
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" id="GrandTotal" placeholder="Grand Total">
+                                                        <label for="GrandTotal">Grand Total</label>
+                                                    </div>
+                                                    <!-- Grand Total_end -->
+                                                     <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" id="LessWalletAmount" placeholder="LessWallet Amount">
+                                                        <label for="LessWalletAmount">Grand Total</label>
+                                                    </div>
+                                                    <!-- Grand Total_end -->
+                                                    <div class="form-floating mb-3">
+                                                        <input type="text" class="form-control" id="PaybleAmount" placeholder="Payble Amount">
+                                                        <label for="PaybleAmount">Grand Total</label>
+                                                    </div>
+                                                    <!-- PaybleAmount_end -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                       
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-grid gap-2 col-12 mx-auto">
+                                    <button type="button" class="btn btn-info">New</button>
+                                </div>
+                                <div class="d-grid gap-2 col-12 mx-auto">
+                                   <button type="button" class="btn btn-primary mt-3">Edit</button>
+                                </div>
+                                <div class="d-grid gap-2 col-12 mx-auto">
+                                   <button type="button" class="btn btn-danger mt-3">Delete</button>
+                                </div>
+                                <div class="d-grid gap-2 col-12 mx-auto">
+                                   <button type="button" class="btn btn-success mt-3">Save</button>
+                                </div>
+                                <!-- btn_end -->
+
+                                <div class="form-floating mb-3 mt-3">
+                                     <select class="form-select col-12" id="PaymentMode">
+                                        <option selected="">Payment Mode</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                     </select>
+                                    <label for="PaymentMode">Input Select</label>
+                                </div>
+                                <!-- PaymentModeEnd -->
+                                <div class="form-floating mb-3 mt-3">
+                                     <select class="form-select col-12" id="DeliveryMode">
+                                        <option selected="">Delivery Mode</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                     </select>
+                                    <label for="DeliveryMode">Input Select</label>
+                                </div>
+                                <!-- PaymentModeEnd -->
+                                <div class="table-responsive"> 
+                                <table class="table table-bordered">
+                                    <thead class="table-light">
+                                      <tr>
+                                        <th>Org ISBN</th>
+                                        <th>Free ISBN</th>
+                                        <th>Free Quantity</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                            <input type="text" class="form-control" id="" placeholder=""> 
+                                        </td>
+                                        <td>
+                                            <input type="text" class="form-control" id="" placeholder="">  
+                                        </td>
+                                        <td> 
+                                            <input type="text" class="form-control" id="" placeholder=""> 
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                                <!-- table_end -->
+                                <p>Want to Adjust With Amount</p>
+                                  <div class="row">
+                                    <div class="col-6">
+                                        <input name="group1" type="radio" class="with-gap material-inputs" id="radio_3">
+                                        <label for="radio_3">Yes</label>
+                                    </div>
+                                    <div class="col-6">
+                                        <input name="group1" type="radio" id="radio_4" class="with-gap material-inputs">
+                                        <label for="radio_4">No</label>
+                                    </div>
+                                 </div>
+                                 <div class="form-floating mb-3 mt-3">
+                                        <input type="text" class="form-control" id="BankDetails" placeholder="BankDetails">
+                                        <label for="Purchose_Amount">Bank Details</label>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------- -->
+            <!-- End Container fluid  -->
+            <!-- footer -->
+            <!-- -------------------------------------------------------------- -->
+            <footer class="footer text-center">
+                   All Rights Reserved by admin.
+            </footer>
+            <!-- -------------------------------------------------------------- -->
+            <!-- End footer -->
+        </div>
+        <!-- -------------------------------------------------------------- -->
+        <!-- End Page wrapper  -->
+        <!-- -------------------------------------------------------------- -->
+    </div>
+    <!-- All Jquery -->
+    <!-- -------------------------------------------------------------- -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- apps -->
+    <script src="js/app.min.js"></script>
+    <script src="js/app.init.js"></script>
+    <script src="js/app-style-switcher.js"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="js/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+   <script src="js/feather.min.js"></script>
+    <script src="js/custom.min.js"></script>
+    <!-- This Page JS -->
+    <script src="js/prism.js"></script>
+</body>
+
+</html>
